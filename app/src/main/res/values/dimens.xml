@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hmi_space_xxs">4dp</dimen>
+    <dimen name="hmi_space_xs">8dp</dimen>
+    <dimen name="hmi_space_sm">16dp</dimen>
+    <dimen name="hmi_space_md">24dp</dimen>
+    <dimen name="hmi_space_lg">32dp</dimen>
+    <dimen name="hmi_space_xl">48dp</dimen>
+    <dimen name="hmi_space_card">20dp</dimen>
+    <dimen name="hmi_radius_card">24dp</dimen>
+    <dimen name="hmi_radius_large">32dp</dimen>
+    <dimen name="hmi_touch_target">96dp</dimen>
+    <dimen name="hmi_icon_small">32dp</dimen>
+    <dimen name="hmi_icon_default">40dp</dimen>
+
+    <dimen name="hmi_page_padding_top">79dp</dimen>
+    <dimen name="hmi_page_padding_left">70dp</dimen>
+    <dimen name="hmi_page_padding_right">64dp</dimen>
+
+    <dimen name="hmi_status_bar_height">82dp</dimen>
+    <dimen name="status_bar_time_text_size">40sp</dimen>
+    <dimen name="status_bar_date_text_size">38dp</dimen>
+    <dimen name="status_bar_greeting_text_size">32dp</dimen>
+    <dimen name="status_bar_meta_text_size">24dp</dimen>
+
+    <dimen name="status_bar_icon_size">52dp</dimen>
+    <dimen name="status_bar_icon_text_size">34dp</dimen>
+
+    <dimen name="navigation_card_width">1644dp</dimen>
+    <dimen name="navigation_card_height">909dp</dimen>
+    <dimen name="navigation_card_title_text_size">36dp</dimen>
+    <dimen name="navigation_card_distance_text_size">32dp</dimen>
+    <dimen name="navigation_card_maneuver_text_size">22dp</dimen>
+    <dimen name="navigation_card_map_label_text_size">24dp</dimen>
+    <dimen name="navigation_card_eta_text_size">22dp</dimen>
+
+    <dimen name="music_card_width">762dp</dimen>
+    <dimen name="music_card_height">486dp</dimen>
+    <dimen name="music_card_title_text_size">32dp</dimen>
+    <dimen name="music_card_artist_text_size">24dp</dimen>
+    <dimen name="music_card_time_text_size">18dp</dimen>
+
+    <dimen name="vehicle_card_width">762dp</dimen>
+    <dimen name="vehicle_card_height">405dp</dimen>
+    <dimen name="vehicle_card_label_text_size">22dp</dimen>
+    <dimen name="vehicle_card_range_text_size">56dp</dimen>
+    <dimen name="vehicle_card_unit_text_size">28dp</dimen>
+    <dimen name="vehicle_card_percentage_text_size">20dp</dimen>
+    <dimen name="vehicle_card_status_text_size">24dp</dimen>
+    <dimen name="vehicle_card_tire_text_size">22dp</dimen>
+
+    <dimen name="climate_bar_height">117dp</dimen>
+    <dimen name="climate_bar_temperature_text_size">42dp</dimen>
+    <dimen name="climate_bar_value_text_size">28dp</dimen>
+    <dimen name="climate_bar_auto_text_size">26dp</dimen>
+    <dimen name="climate_bar_label_text_size">22dp</dimen>
+
+    <dimen name="bottom_navigation_height">116dp</dimen>
+    <dimen name="bottom_navigation_item_width">404dp</dimen>
+    <dimen name="bottom_navigation_selected_width">380dp</dimen>
+    <dimen name="bottom_navigation_selected_height">92dp</dimen>
+    <dimen name="bottom_navigation_icon_size">36dp</dimen>
+    <dimen name="bottom_navigation_icon_text_spacing">12dp</dimen>
+    <dimen name="bottom_navigation_label_text_size">24dp</dimen>
+    <dimen name="hmi_active_glow_blur">24dp</dimen>
+    <dimen name="hmi_surface_border_width">1dp</dimen>
+    <dimen name="hmi_card_shadow_offset_y">8dp</dimen>
+    <dimen name="hmi_card_shadow_blur">24dp</dimen>
+
+</resources>
