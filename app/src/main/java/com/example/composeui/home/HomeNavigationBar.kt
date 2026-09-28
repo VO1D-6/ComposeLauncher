@@ -8,15 +8,16 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
@@ -41,8 +42,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.material3.Text
 import com.example.composeui.R
 
 @Preview(widthDp = 2426, heightDp = 116)
@@ -65,17 +66,6 @@ fun BottomNavigation() {
             .fillMaxWidth()
             .height(dimensionResource(R.dimen.bottom_navigation_height))
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .offset(y = dimensionResource(R.dimen.hmi_card_shadow_offset_y))
-                .softBlur(
-                    radius = dimensionResource(R.dimen.hmi_card_shadow_blur),
-                    color = colorResource(R.color.hmi_shadow),
-                    corner = dimensionResource(R.dimen.hmi_radius_card),
-                )
-                .background(colorResource(R.color.hmi_shadow), shape)
-        )
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -156,7 +146,19 @@ private fun NavigationItem(
 }
 
 @Composable
-private fun SelectedBackground() {
+private fun BoxScope.SelectedBackground() {
+    Box(
+        modifier = Modifier
+            .height(10.dp)
+            .width(160.dp)
+            .background(
+                colorResource(R.color.hmi_primary),
+                RoundedCornerShape(10.dp)
+            ).align(Alignment.BottomCenter)
+    ) {
+
+    }
+    if (true) return
     val shape = RoundedCornerShape(dimensionResource(R.dimen.hmi_radius_card))
     val glow = colorResource(R.color.hmi_primary_glow)
     Box(
